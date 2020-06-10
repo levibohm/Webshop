@@ -21,7 +21,7 @@ if ( $resultaat == false )
 }
 else
 {
-   header('../Webshop marvel/Webshop home.php');
+   header('../Webshop marvel/Webshop_home.php');
    exit;
 }
 

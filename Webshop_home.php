@@ -5,6 +5,7 @@ session_start();
 <html>
 
 <head>
+    <title>Marvel Fan Shop</title>
     <link href="Webshop_opmaak.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -15,9 +16,9 @@ session_start();
             <div class="logo">
                 <img src="../Webshop marvel/img/marvel logo.png" div>
                 <ul class="main-nav">
-                    <li><a href="../Webshop marvel/Webshop_home.php"> HOME </a></li>
+                    <li class="active"><a href="../Webshop marvel/Webshop_home.php"> HOME </a></li>
                     <li><a href="../Webshop marvel/Producten.php"> PRODUCTEN </a></li>
-                    <li class="active"><a href="../Webshop marvel/Contact.php"> CONTACT </a></li>
+                    <li><a href="../Webshop marvel/contact.php"> CONTACT </a></li>
                     <?php
                     if (isset($_SESSION['naam'])) {
                         
@@ -38,20 +39,19 @@ session_start();
                     ?>
                     <li><a href="../Webshop marvel/Winkelwagen.php"> WINKELWAGEN </a></li>
                 </ul>
+
             </div>
-            <p>
-                Wij zijn telefonisch bereikbaar op maandag t/m donderdag van 09:00 tot 17:00 en op E-mail kunt u ons altijd vragen stellen en wordt er z.s.m gereageerd op uw vraag.
-            </p>
-            <P>
-                onze contactgegevens:
-            </P>
-            <p>
-                E-Mail: 162738@novacollege.nl
-            </p>
-            <p>
-                Telefoonnummer: (023) 530 20 10
-            </p>
+
+            <div class="hero">
+                <h1>Welkom bij de Marvel Fan Shop</h1>
+                <p>De fan shop voor al uw marvel actiefiguren, zolang de voorraad strekt</p>
+            </div>
+        </div>
+
     </header>
+
+
+
 </body>
 
 </html>
