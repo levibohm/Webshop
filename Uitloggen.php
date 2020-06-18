@@ -4,3 +4,4 @@ session_destroy();
 
 header("Location: ../Webshop marvel/Webshop_home.php");
 ?>
+<p></p>

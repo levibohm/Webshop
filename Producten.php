@@ -26,7 +26,7 @@ session_start();
 
                         if ($_SESSION['Admin'] == 0) {
 
-                            echo '<li><a href="#">Beheren</a></li>';
+                            echo '<li><a href="#">BEHEREN</a></li>';
                         }
                     } else {
                         echo '<li><a class="Active" href="../Webshop marvel/Login.php"> LOGIN</a></li>';
@@ -36,8 +36,10 @@ session_start();
                     <li><a href="../Webshop marvel/Winkelwagen.php"> WINKELWAGEN </a></li>
                 </ul>
             </div>
-
-            <div class="products">
+            <?php
+            include 'verwerk_producten.php';
+            ?>
+            <!-- <div class="products">
                 <div class="card">
                     <img src="../Webshop marvel/img/Set.jpg" alt="Set 1" style="width:225px" height="190px">
                     <p>Box 1</p>
@@ -79,7 +81,7 @@ session_start();
                         <p class="price">€129,99</p>
                         <p><button>Add to Cart</button></p>
                     </div>
-                </p>
+                </p> -->
     </header>
 </body>
 

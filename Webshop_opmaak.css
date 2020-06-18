@@ -133,13 +133,15 @@ header
 
 .card {
     box-shadow: 4px 4px 8px 4px #f85b0027;
-    max-width: 150px;
+    max-width: 100px;
     text-align: center;
     font-family: arial;
     margin:38px;
     top: 25px;
     display: inline-block;
   }
+
+
 
   .price {
     color: red;

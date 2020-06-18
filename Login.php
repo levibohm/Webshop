@@ -27,7 +27,7 @@ session_start();
                         echo '<li><a class="Active" href="../Webshop marvel/Login.php"> LOGIN</a></li>';
                     }
                     ?>
-                    <li><a href="../Webshop marvel/Winkelwagen.php"> WINKELWAGEN </a></li>
+                    <li><a href="../Webshop marvel/Winkelwagen.php"> WINKELWAGEn </a></li>
                 </ul>
             </div>
 

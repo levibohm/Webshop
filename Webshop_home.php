@@ -28,7 +28,7 @@ session_start();
                     
                         if ($_SESSION['Admin'] == 0) {
                         
-                            echo '<li><a href="#">Beheren</a></li>';
+                            echo '<li><a class="Active" href="#"> BEHEREN </a></li>';
                     
                         }
                     }
